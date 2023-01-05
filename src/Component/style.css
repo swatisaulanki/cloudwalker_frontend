@@ -1,0 +1,84 @@
+table, tr,td,th{
+    border :1px solid black;
+    text-align: center;
+}
+tr,th,td{ 
+    padding :10px;
+    font-size:18px;
+
+
+}
+table {
+    margin-top: 3%;
+    border-color: crimson;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+button{
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    border :none;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.edit{
+    background-color: rgb(38, 106, 38);
+}
+.del{
+    background-color: red;
+}
+.main{
+    display: flex;
+    gap:30px;
+    /* margin-left: 30%; */
+    padding-left:10% ;
+    margin: auto;
+    margin-top:3%;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    width: 45%;
+    padding: 40px;
+    padding-left: 40px;
+    /* height: ; */
+    margin-bottom: 30px;
+}.submit{
+    padding: 10px;
+    font-size: 25px;
+    width: 100px;
+}
+select {
+    background-color: black;
+    color:white;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+
+input{
+    height: 35px;
+    width:300px;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+font-size: 16px;
+padding-left: 20px;
+}
+    
+input::placeholder{
+    font-size: 15px;
+    padding-left: 20px;
+}
